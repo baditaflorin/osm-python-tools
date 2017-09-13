@@ -2,6 +2,17 @@
 
 The python package `OSMPythonTools` provides easy access to [OpenStreetMap (OSM)](http://www.openstreetmap.org) related services, amongst them an [Overpass endpoint](http://wiki.openstreetmap.org/wiki/Overpass_API) and [Nominatim](http://nominatim.openstreetmap.org).
 
+Installing on python3, ubuntu 16.04
+
+git clone https://github.com/baditaflorin/osm-python-tools/
+
+python3 setup.py sdist
+
+pip3 install ./dist/OSMPythonTools-0.1.4.tar.gz
+
+
+
+
 ## Example 1
 
 *Which object does the way with the id `5887599` represent?*
