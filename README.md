@@ -2,7 +2,7 @@
 
 The python package `OSMPythonTools` provides easy access to [OpenStreetMap (OSM)](http://www.openstreetmap.org) related services, amongst them an [Overpass endpoint](http://wiki.openstreetmap.org/wiki/Overpass_API) and [Nominatim](http://nominatim.openstreetmap.org).
 
-Installing on python3, ubuntu 16.04
+Installing on python3, windows 7
 
 git clone https://github.com/baditaflorin/osm-python-tools/
 
@@ -21,6 +21,8 @@ py -3   -m pip install wheel
 py -3   -m pip wheel ujson-1.35-cp36-cp36m-win32.whl
 
 py -3   -m pip install ujson-1.35-cp36-cp36m-win32.whl
+
+Also install py -3   -m pip install xarray
 ```
 
 
