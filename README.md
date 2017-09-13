@@ -10,6 +10,18 @@ python3 setup.py sdist
 
 pip3 install ./dist/OSMPythonTools-0.1.4.tar.gz
 
+To skip downloading 1 GB Virtual Basic C++ whatever, download the wheel from here http://www.lfd.uci.edu/~gohlke/pythonlibs/
+
+actual location is http://www.lfd.uci.edu/%7Egohlke/pythonlibs/#ujson
+Go to the location where you downloaded the file. 
+And then 
+```
+py -3   -m pip install wheel
+
+py -3   -m pip wheel ujson-1.35-cp36-cp36m-win32.whl
+
+py -3   -m pip install ujson-1.35-cp36-cp36m-win32.whl
+```
 
 
 
